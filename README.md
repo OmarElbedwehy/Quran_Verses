@@ -9,3 +9,9 @@
 - Show Current Time
 - Show Weather
 - Show Current Date
+
+`Tools Used`
+- HTML
+- CSS
+- VANILA JAVASCRIPT
+- JAVASCRIPT API
