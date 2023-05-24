@@ -21,4 +21,4 @@
 - VANILA JAVASCRIPT
 - JAVASCRIPT API
 
-<a href="https://quranayya.netlify.app/">Visit Site</a>
+<a href="https://quranayya.netlify.app/" target="_blank">Visit Site</a>
