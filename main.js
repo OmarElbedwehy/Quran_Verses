@@ -396,13 +396,6 @@ setInterval(() => {
       secounds = `0${secounds}`
     }
   
-    let days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-    let day_num = date.getDay();
-    let day =  days[day_num + 1];
-    if (day_num == 6){
-      day = days[0];
-    }
-  
     let month = date.getMonth() + 1;
     let full_date = `${date.getDate()} / ${month} / ${date.getFullYear()} `
   
