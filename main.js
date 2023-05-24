@@ -327,6 +327,8 @@ const RandomBg = () => {
 
 RandomBg();
 
+// GET WEATHER AND PREMISION ON LOCATION
+
 const findState = () => {
     const sucess = (e) => {
         let lat = e.coords.latitude;
@@ -358,6 +360,8 @@ const findState = () => {
 
     let location = navigator.geolocation.getCurrentPosition(sucess, error);
 }
+
+// CHECK IF THE USER ALREADY HAVE ACCEPTED LOCATION PREMISION
 
 navigator.permissions.query({ name: "geolocation" }).then((result) => {
     if (result.state === "granted") {
