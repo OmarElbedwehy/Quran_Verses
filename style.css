@@ -11,6 +11,20 @@
     --removed_ask: 'Remove From Favorites';
     --removed: 'Removed';
     --pseudo_width: 140px;
+    --width: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1B1B1B;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 3px;
 }
 
 body{
@@ -322,6 +336,58 @@ video{
     color: #ff2c2c;
 }
 
+#pre_loader{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pre_loader::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-color: #1B1B1B;
+    width: var(--width);
+    height: 100%;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+#pre_loader::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    background-color: #1B1B1B;
+    width: var(--width);
+    height: 100%;
+    z-index: 100;
+    transition: 0.3s;
+}
+
+#pre_loader svg{
+    z-index: 105;
+    width: 100px;
+    animation: animi_pre 2s infinite alternate;
+}
+
+@keyframes animi_pre {
+    0%{
+        opacity: 1;
+        width: 100px;
+    }
+    50%{
+        opacity: 0.5;
+        width: 80px;
+    }
+    100%{
+        opacity: 1;
+        width: 100px;
+    }
+}
+
 @media (max-width: 1015px) {
     .center{
         width: 50%;
@@ -329,6 +395,9 @@ video{
 }
 
 @media (max-width: 760px) {
+    :root{
+        --width: 51%;
+    }
     .center{
         width: 80%;
     }
