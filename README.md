@@ -20,3 +20,5 @@
 - CSS
 - VANILA JAVASCRIPT
 - JAVASCRIPT API
+
+<a href="https://quranayya.netlify.app/">Visit Site</a>
