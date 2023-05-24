@@ -2,9 +2,9 @@
 
 `Full Responsive Random Quran Verses`
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OmarElbedwehy/Quran_Verses/main/imgs/page_img.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OmarElbedwehy/Quran_Verses/main/imgs/page_img.png">
-  <img src="https://raw.githubusercontent.com/OmarElbedwehy/Quran_Verses/main/imgs/page_img.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OmarElbedwehy/Quran_Verses/main/imgs/page.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OmarElbedwehy/Quran_Verses/main/imgs/page.png">
+  <img src="https://raw.githubusercontent.com/OmarElbedwehy/Quran_Verses/main/imgs/page.png">
 </picture>
 
 `FEATURES`
