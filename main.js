@@ -234,7 +234,7 @@ const AddToLocal = (arr) => {
     addFavsEle(JSON.parse(window.localStorage.getItem("favs")))
 }
 
-// ADD TO F
+// ADD TO FAVOURITS
 
 let fav_btn = document.querySelector("#fav");
 
@@ -409,3 +409,12 @@ setInterval(() => {
    document.querySelector("#time").textContent = `${hours} : ${minutes} ${time_zone}`;
    document.querySelector('#date').textContent = full_date
 }, 1000)
+
+// PRELOADER
+
+window.onload = () =>{
+    setTimeout(()=>{
+        document.documentElement.style.setProperty("--width", "0%");
+        document.querySelector("#pre_loader svg").style.display = "none";
+    }, 2000)
+}
